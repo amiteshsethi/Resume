@@ -258,12 +258,13 @@ body {
 }
 
 #portfolio-display {
-  width: 60%;
+  width: 80%;
   margin: auto;
       /* border:12px solid green; */
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .content-port-1 {
@@ -352,6 +353,9 @@ body {
 }
 
 #get-in-touch {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   position: relative;
   left: 32%;
   display: inline-block;
@@ -393,27 +397,6 @@ body {
   border-radius: 50%;
   word-spacing: 70px;
   justify-content: space-between;
-}
-
-#contact-send-message input {
-  font-size: 40px;
-  margin-bottom: 10px;
-  background: transparent;
-  border: 0px solid transparent;
-  border-bottom: 2px solid white;
-  color: #dee9ec;
-}
-
-#contact-send-message button {
-  background: transparent;
-  border: 2px solid white;
-  color: white;
-  border-radius: 2px;
-  color: white;
-  font-family: sans-serif;
-  font-weight: 700;
-  margin-left: 175px;
-  font-size: 20px;
 }
 
 /* Work Experience */
@@ -777,9 +760,6 @@ body {
   #education {
     margin: auto;
   }
-  .portfolio-div {
-    margin-left: 50px;
-  }
   #contact-send-message,
   #get-in-touch {
     display: block;
@@ -789,3 +769,4 @@ body {
     margin-left: 0;
   }
 }
+
