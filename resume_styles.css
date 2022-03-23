@@ -762,7 +762,7 @@ body {
 
 @media (max-width:560px){
   #address-div>p{
-    font-size: 5px;
+    font-size: 9px;
   }
   #address-div{
     /* border: 1px solid red; */
