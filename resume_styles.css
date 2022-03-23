@@ -352,43 +352,38 @@ body {
   /* border:1px solid red; */
 }
 
-#get-in-touch {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
+.contact-desc{
+  /* border: 1px solid yellow; */
+  margin:auto ;
+  text-align: center;
+}
+
+#get-in-touch{
   position: relative;
-  left: 32%;
-  display: inline-block;
+  left: 0%;
+  display: block;
   font-size: 20px;
   width: 35%;
-  padding: 0px 40px 0px 40px;
+  padding: 0px 20px 0px 20px;
   text-align: center;
   margin: auto;
-}
-
-#get-in-touch p {
   color: azure;
-  font-size: 1rem;
-  margin-top: 10px;
+  /* border: 1px solid red ; */
 }
 
-#get-in-touch h6 {
+#my-address{
+  position: relative;
+  left: 0%;
+  display: block;
+  font-size: 20px;
+  width: 35%;
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+  margin: auto;
   color: azure;
-  font-size: 25px;
+  /* border: 1px solid red ; */
 }
 
-#address-div {
-  margin-top: 20px;
-}
-
-#address-div p span {
-  padding: auto;
-}
-
-#last-social-icons {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 
 .social-icons-2 li a i {
   padding: 10px;
@@ -719,15 +714,8 @@ body {
   }
   .edu-content::after {
     left: -5% !important ;
-  }
-  #contact-send-message,
-  #get-in-touch {
-    display: block;
-    margin-left: -80px;
-    left: 1%;
-    display: block;
-    margin-left: 70px;
-  }
+ }
+  
 }
 
 @media screen and (max-width: 572px) {
@@ -760,13 +748,26 @@ body {
   #education {
     margin: auto;
   }
-  #contact-send-message,
-  #get-in-touch {
-    display: block;
-    margin-left: -80px;
-    left: 1%;
-    display: block;
-    margin-left: 0;
+  #get-in-touch , #get-in-touch>h6 {
+    font-size:10px;
+    /* width: 80vw; */
+    /* border: 1px solid red ; */
+  }
+
+  #address-div , #address-div>p{
+    font-size: 12px;
+    /* border: 1px solid green; */
+  }
+}
+
+@media (max-width:560px){
+  #address-div>p{
+    font-size: 5px;
+  }
+  #address-div{
+    /* border: 1px solid red; */
+    position: relative;
+    left: auto;
   }
 }
 
