@@ -181,6 +181,7 @@ body {
   margin: auto;
   font-size: 1rem;
   color: white;
+  text-align:center;
   /*     border :2px solid black; */
 }
 #python {
@@ -352,38 +353,43 @@ body {
   /* border:1px solid red; */
 }
 
-.contact-desc{
-  /* border: 1px solid yellow; */
-  margin:auto ;
-  text-align: center;
-}
-
-#get-in-touch{
+#get-in-touch {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   position: relative;
-  left: 0%;
-  display: block;
+  left: 32%;
+  display: inline-block;
   font-size: 20px;
   width: 35%;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 40px 0px 40px;
   text-align: center;
   margin: auto;
-  color: azure;
-  /* border: 1px solid red ; */
 }
 
-#my-address{
-  position: relative;
-  left: 0%;
-  display: block;
-  font-size: 20px;
-  width: 35%;
-  padding: 0px 20px 0px 20px;
-  text-align: center;
-  margin: auto;
+#get-in-touch p {
   color: azure;
-  /* border: 1px solid red ; */
+  font-size: 1rem;
+  margin-top: 10px;
 }
 
+#get-in-touch h6 {
+  color: azure;
+  font-size: 25px;
+}
+
+#address-div {
+  margin-top: 20px;
+}
+
+#address-div p span {
+  padding: auto;
+}
+
+#last-social-icons {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 .social-icons-2 li a i {
   padding: 10px;
@@ -762,7 +768,7 @@ body {
 
 @media (max-width:560px){
   #address-div>p{
-    font-size: 9px;
+    font-size: 5px;
   }
   #address-div{
     /* border: 1px solid red; */
@@ -771,3 +777,7 @@ body {
   }
 }
 
+.connect-me {
+  text-align: center;
+  color:rgb(193, 234, 208);
+}
